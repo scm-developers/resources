@@ -13,4 +13,4 @@
 
 ## Design Pattern and Design Principles
 
-- [Repository And MVC Desigin Pattern](https://github.com/scm-developers/resources/raw/main/docs/Repository%20Design%20Pattern%20and%20MVC.docx)
+- [Repository And MVC Desigin Pattern](https://github.com/scm-developers/resources/raw/main/docs/Repository%20Design%20Pattern%20and%20MVC.docx) by [Khine Zin Thaw](https://github.com/KhineZinThaw7)
