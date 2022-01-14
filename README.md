@@ -13,6 +13,7 @@
 - [How to make GitHub Page](https://github.com/scm-developers/resources/raw/main/docs/How%20to%20make%20GitHub%20Page%20for%20your%20repository.docx) by [Khine Zin Thaw](https://github.com/KhineZinThaw7)
 - [How to change MySQL default port number](https://github.com/scm-developers/resources/raw/main/docs/How%20to%20Change%20MySQL%20Default%20Port%20Number.pdf) by [Hsu Monn Lynn](https://github.com/HsuMonLynn)
 - [How to import SQL file into database](https://github.com/scm-developers/resources/raw/main/docs/How%20to%20Import%20SQL%20File%20into%20Database.pdf) by [Zaw Win Tin](https://github.com/ZawWinTin-SCM)
+- [How To Set Up Apache Virtual Hosts](https://github.com/scm-developers/resources/raw/main/docs/How%20To%20Set%20Up%20Apache%20Virtual%20Hosts.pdf) by [Wah Wah Wynn Shwe Hlaing](https://github.com/WahWahWynnShweHlaing)
 
 ## Design Pattern and Design Principles
 
