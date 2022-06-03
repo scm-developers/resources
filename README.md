@@ -4,7 +4,7 @@
 - [Lambda Local Development With Docker](https://github.com/scm-developers/resources/raw/main/docs/Lambda%20Local%20Development%20With%20Docker.xlsx) by [Zaw Khant Maung](https://github.com/zawkhantmaung-scm)
 - [Markdown](https://github.com/scm-developers/resources/raw/main/docs/Markdown%20Documentation.docx) by [Khine Zin Thaw](https://github.com/KhineZinThaw7)
 - [Regular Expression](https://github.com/scm-developers/resources/raw/main/docs/RegularExpressionsManual.xlsx) by [May Thu Kyaw](https://github.com/MayThuKyaw010618)
-- Pusher Documentation for Laravel by [Zaw Win Tin](https://github.com/ZawWinTin-SCM)
+- [Pusher Documentation for Laravel](Pusher%20Sample%20Doc/Laravel_Pusher.md) by [Zaw Win Tin](https://github.com/ZawWinTin-SCM)
     - [Laravel Pusher](Pusher%20Sample%20Doc/Laravel_Pusher.md)
     - [Create Pusher Account](Pusher%20Sample%20Doc/Create_Pusher_Account.md) 
 
