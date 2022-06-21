@@ -5,17 +5,17 @@
 ![image](https://user-images.githubusercontent.com/59432845/171817167-1a9eceec-6335-47fd-9fe3-77be8923e0df.png)
 
 ## Table of Contents
-- [Create Pusher](#create-pusher)
-	- [Read This](./Create_Pusher_Account.md)
-- [Pusher Server Side Installation](#pusher-server-side-installation)
-- [Pusher Client Side Installation](#pusher-client-side-installation)
-- [Create Model](#create-model)
-- [Create Migration](#create-migration)
-- [Create Data by Running Seeder](#create-data-by-running-seeder)
-- [Create Event](#create-event)
-- [Create Route](#create-route)
-- [Create Controller](#create-controller)
-- [Create View](#create-view)
+  - [Create Pusher](#create-pusher)
+  - [What is Pusher ?](#what-is-pusher-)
+  - [Pusher Server Side Installation](#pusher-server-side-installation)
+  - [Pusher Client Side Installation](#pusher-client-side-installation)
+  - [Create Model](#create-model)
+  - [Create Migration](#create-migration)
+  - [Create Data By Running Seeder](#create-data-by-running-seeder)
+  - [Create Event](#create-event)
+  - [Create Route](#create-route)
+  - [Create Controller](#create-controller)
+  - [Create View](#create-view)
 
 ### Create Pusher
 #### What is Pusher ?
@@ -77,6 +77,38 @@ php artisan make:model Vote
 After that, Create **Migration** for **Vote Model**.
 ```
 php artisan make:migration create_votes_table
+```
+
+And add count column in migrations. 
+
+My migration file will be looked like this ...
+```php
+class CreateVotesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('votes', function (Blueprint $table) {
+            $table->id();
+            $table->integer('count')->default(0);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('votes');
+    }
+}
 ```
 
 ### Create Data By Running Seeder
