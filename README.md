@@ -7,6 +7,7 @@
 - [Pusher Documentation for Laravel](Pusher%20Sample%20Doc/Laravel_Pusher.md) by [Zaw Win Tin](https://github.com/ZawWinTin-SCM)
     - [Laravel Pusher](Pusher%20Sample%20Doc/Laravel_Pusher.md)
     - [Create Pusher Account](Pusher%20Sample%20Doc/Create_Pusher_Account.md) 
+- [Corn Job](https://github.com/ZawWinTin-SCM/Laravel-Training/blob/main/mail-schedule.bat)
 
 ## How To
 
